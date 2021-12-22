@@ -1,0 +1,174 @@
+// // {
+// //     // "python.linting.pylintEnabled": true,
+// //     // "python.linting.enabled": true
+// //     "git.ignoreLimitWarning": true,
+// //     "python.pythonPath": "Scripts\\python.exe",
+// //     // "python.pythonPath": "C:\\ProgramData\\Anaconda3\\envs\\djangoSite2\\python.exe",
+// //     // "python.linting.pylintEnabled": true,
+// //     "python.linting.pylintArgs": [
+// //         "--disable=C0111",
+// //         "--load-plugins",
+// //         "pylint_django"
+// //     ],
+// // }
+// // // {
+// // //     "git.ignoreLimitWarning": true,
+// // //     "python.linting.enabled": true,
+// // //     "python.linting.pylamaEnabled": false,
+// // //     "python.linting.pylintEnabled": true,
+// // //     "python.linting.pylintArgs": [
+// // //         "--disable=C0111",
+// // //         "--load-plugins",
+// // //         "pylint_django"
+// // //     ],
+// // // }
+// {
+//     // "python.linting.pylintEnabled": true,
+//     // "python.linting.enabled": true
+//     "git.ignoreLimitWarning": true,
+//     "python.linting.pylintEnabled": true,
+//     "python.pythonPath": "../../Scripts/python.exe",
+//     // "python.pythonPath": "C:\\ProgramData\\Anaconda3\\envs\\djangoSite2\\python.exe",
+//     // "python.linting.pylintEnabled": true,
+//     "python.linting.pylintArgs": [
+//         "--enable=F,E,W",
+//         "--load-plugins=pylint_django",
+//         "pylint_django",
+//         // "--disable=C0111",
+//         "--load-plugins",
+//     ],
+//     "python.formatting.blackArgs": [
+//         "--line-length",
+//         "120"
+//     ],
+//     "[python]": {},
+//     "python.linting.enabled": true,
+//     "cornflakes.linter.executablePath": "../../Scripts/flake8.exe",
+//     // "cornflakes.executablePath": "D:\\work\\python\\django projects\\a full course paied\\full-app-Airbnb\\Scripts\flake8.exe",
+//     "cornflakes.linter.run": "onType",
+//     "python.formatting.provider": "autopep8",
+//     "python.linting.banditEnabled": false,
+//     "python.linting.flake8Enabled": true,
+//     "python.linting.pycodestyleEnabled": true,
+//     "python.linting.pycodestylePath": "../../Scripts/pycodestyle.exe",
+//     "python.linting.pycodestyleArgs": [
+//         "--ignore=E501,W504"
+//     ],
+//     "python.linting.flake8Args": [
+//         "--max-line-length=120",
+//         "--ignore=E402,F841,F401,E302,E305,E501,E241,E303,W504",
+//     ],
+//     "python.linting.lintOnSave": true,
+//     "python.formatting.autopep8Path": "autopep8",
+//     "editor.formatOnSave": true,
+//     "python.analysis.completeFunctionParens": true
+// }
+// // {
+// //     "git.ignoreLimitWarning": true,
+// //     "python.linting.pylamaEnabled": false,
+// //     "python.linting.pylintEnabled": true,
+// //     "python.linting.pylintArgs": [
+// //         "--disable=C0111",
+// //         "--load-plugins",
+// //         "pylint_django"
+// //     ],
+// // }
+// {
+//     // "python.linting.pylintEnabled": true,
+//     // "python.linting.enabled": true
+//     "git.ignoreLimitWarning": true,
+//     "python.pythonPath": "Scripts\\python.exe",
+//     // "python.pythonPath": "C:\\ProgramData\\Anaconda3\\envs\\djangoSite2\\python.exe",
+//     // "python.linting.pylintEnabled": true,
+//     "python.linting.pylintArgs": [
+//         "--disable=C0111",
+//         "--load-plugins",
+//         "pylint_django"
+//     ],
+// }
+// // {
+// //     "git.ignoreLimitWarning": true,
+// //     "python.linting.enabled": true,
+// //     "python.linting.pylamaEnabled": false,
+// //     "python.linting.pylintEnabled": true,
+// //     "python.linting.pylintArgs": [
+// //         "--disable=C0111",
+// //         "--load-plugins",
+// //         "pylint_django"
+// //     ],
+// // }
+{
+    // "python.linting.pylintEnabled": true,
+    // "python.linting.enabled": true
+    "editor.suggest.insertMode": "replace",
+    "git.ignoreLimitWarning": true,
+    "python.linting.pylintEnabled": true,
+    "python.pythonPath": "../../Scripts/python.exe",
+    // "python.pythonPath": "C:\\ProgramData\\Anaconda3\\envs\\djangoSite2\\python.exe",
+    // "python.linting.pylintEnabled": true,
+    "python.linting.pylintArgs": [
+        "--enable=F,E,W",
+        "--load-plugins=pylint_django",
+        "pylint_django",
+        // "--disable=C0111",
+        "--load-plugins",
+    ],
+    "python.formatting.blackArgs": [
+        "--line-length=140",
+    ],
+    "python.formatting.provider": "black",
+    "python.linting.enabled": true,
+    "cornflakes.linter.executablePath": "../../Scripts/flake8.exe",
+    "cornflakes.linter.run": "onType",
+    "python.linter": "flake8",
+    "python.linting.banditEnabled": false,
+    "python.linting.flake8Enabled": true,
+    "python.linting.pycodestyleEnabled": true,
+    "python.linting.pycodestyleArgs": [
+        "--ignore=E501,W504"
+    ],
+    "python.linting.flake8Args": [
+        "--max-line-length=120",
+        "--ignore=E402,F841,F401,E302,E305,E501,E241,E303,W504",
+    ],
+    "editor.formatOnSave": true,
+    "editor.formatOnSaveMode": "file",
+    "python.linting.lintOnSave": false,
+    "[python]": {
+        "editor.tabSize": 4,
+        "editor.insertSpaces": true,
+        "editor.formatOnSave": true
+    },
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": false,
+        "strings": false,
+    },
+    "editor.acceptSuggestionOnEnter": "smart",
+    "editor.suggest.showIcons": true,
+    "editor.suggest.snippetsPreventQuickSuggestions": true,
+    // "editor.suggest.insertMode": "insert",
+    "editor.suggest.showClasses": true,
+    "editor.suggest.showSnippets": true,
+    "editor.snippetSuggestions": "bottom",
+    "cSpell.words": [
+        "cond",
+        "jqoezr",
+        "jumia",
+        "paxs",
+        "جنيه"
+    ],
+    "jupyter.debugJustMyCode": true,
+    "debug.allowBreakpointsEverywhere": true,
+}
+// {
+//     "git.ignoreLimitWarning": true,
+//     "python.linting.enabled": true,
+//     "python.linting.pylamaEnabled": false,
+//     "python.linting.pylintEnabled": true,
+//     "python.linting.pylintArgs": [
+//         "--disable=C0111",
+//         "--load-plugins",
+//         "pylint_django"
+//     ],
+// }
